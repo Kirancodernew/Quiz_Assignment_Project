@@ -1,0 +1,19 @@
+.navbar{
+    height: 80px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userName{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(12, 109, 59);
+    border-radius: 10px;
+    background-color: rgb(219, 237, 237);
+    box-shadow: 5px 5px 5px rgb(121, 120, 117);
+}

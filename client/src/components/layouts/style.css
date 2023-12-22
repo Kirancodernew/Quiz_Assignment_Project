@@ -1,0 +1,99 @@
+.login-heading{
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+}
+.form-container{
+    width: 40%;
+    border: 1px solid rgb(203, 196, 196);
+    margin: auto;
+    padding: 40px;
+
+}
+.form-container .submit-btn{
+    text-align: center;
+    margin: 30px 0;
+}
+.newTo__account{
+    text-align: center;
+}
+.text__content{
+    text-align: center;
+    margin: auto;
+}
+.text__content>h1{
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text__content .about__quiz{
+    color: rgb(84, 143, 26);
+}
+.text__content>p{
+    color: gray;
+}
+.start__quiz{
+    text-align: center;
+}
+.start__quiz .btn{
+    font-size: 2rem;
+}
+.img__content{
+    text-align: center;
+}
+.img__content>img{
+    width:70% ;
+    height: 400px;
+    object-fit: cover;
+}
+
+.error-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-page> .content{
+    max-width: 70rem;
+    text-align: center;
+}
+.content h2.header{
+    font-size: 18vw;
+    line-height: 1em;
+    background-color: rgb(191, 219, 219);
+    text-shadow: 1px 1px 2px rgba(255,255,255, 0.25);
+    position: relative;
+}
+
+/* about page */
+.about-conainer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Admin component */
+.admin-nav {
+    height: 100vh;
+    display: flex;
+
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #b1aedb;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  

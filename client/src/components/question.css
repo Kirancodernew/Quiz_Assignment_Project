@@ -1,0 +1,114 @@
+
+.questions{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 20px; */
+    /* border: 1px solid red; */
+}
+.pagination{
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.pagination>span{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.pagination__selected{
+    background-color: rgb(220,220,220);
+}
+.pagination__disable{
+    display: none;
+}
+.question__single{
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid;
+    max-width: 800px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.options{
+    /* margin: 20px 0; */
+    line-height: 35px;
+}
+.options-list>li,input,label{
+    cursor: pointer;
+}
+
+
+
+/* Score component */
+.score__container{
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 500px;
+}
+.user__name{
+    text-align: center;
+    /* background-color: aliceblue; */
+   
+}
+.user__name>h1{
+    font-size: 4rem;
+    text-shadow: 5px 5px 3px rgb(189, 178, 178);
+}
+.userScore__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+    text-align: center;
+    height: 70%;
+}
+.your__score{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total__marks>span{
+    font-size: 4rem;
+    background-color: #fff;
+    padding: 25px;
+    color: rgb(60, 16, 130);
+    border-radius: 50%;
+    text-shadow: 5px 5px gray;
+}
+.left__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+ 
+}
+.score__content{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score__content .score__text{
+    border-bottom: 1px solid gray;
+    width: 85%;
+    color: rgb(52, 118, 62);
+    /* padding-bottom: 40px; */
+    font-size: 2.5rem;
+}
+
+/* media query */
+@media screen and (max-width:600px) {
+    .userScore__container{
+        grid-template-columns: 1fr;
+        gap:50px;
+    }
+    .left__container{
+        gap: 50px;
+    }
+}
