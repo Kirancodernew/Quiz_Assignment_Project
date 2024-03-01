@@ -30,14 +30,6 @@ o	Frontend: npm start
 ---
 
 
-Keen to contribute? Awesome! Read our contribution guidelines: **Contribution Guidelines**: CONTRIBUTING.md
-**License**: MIT License: LICENSE
-**Now go forth and conquer those quizzes! **
-**Additional tips for visual appeal:**
-•	Add a captivating image or GIF showcasing the app's interface.
-•	Incorporate visual elements like icons or badges to highlight key features.
-•	Use clear headings and formatting for easy readability.
-•	Proofread carefully to ensure a polished presentation.
----
+
 
 
