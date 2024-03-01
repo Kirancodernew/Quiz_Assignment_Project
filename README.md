@@ -40,19 +40,4 @@ Keen to contribute? Awesome! Read our contribution guidelines: **Contribution Gu
 •	Proofread carefully to ensure a polished presentation.
 ---
 
-**Route Index Path**
----------------Home----------------- 
-http://localhost:3000/
---------------About------------------
-http://localhost:3000/about
--------------Register---------------
-http://localhost:3000/register
---------------Login------------------
-http://localhost:3000/login
---------------Logout----------------
-http://localhost:3000/logout
-------------Admin----------------
-http://localhost:3000/admin
--------------Main-----------------
-http://localhost:3000/main
 
