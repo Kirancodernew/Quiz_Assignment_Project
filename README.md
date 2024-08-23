@@ -1,4 +1,4 @@
-# Quiz_Assignment_Project
+# Quiz_Project
 Assignment to create a learning language game.
 
 
